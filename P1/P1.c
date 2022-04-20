@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int amount_given,bill_amount;
-    int q,r;
+    int amount_given;
+    int q,r,bill_amount;
     printf("The bill amount is: ");
     scanf("%d",&bill_amount);
     printf("The amount given is: ");
@@ -11,6 +11,5 @@ int main() {
     r=amount_given%bill_amount;
     printf("the quotient is: %d\n",q);
     printf("the remainder is: %d",r);
-
     return 0;
 }
